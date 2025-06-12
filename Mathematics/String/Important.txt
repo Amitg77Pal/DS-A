@@ -1,0 +1,48 @@
+/////////////////Hash-Set
+
+for (int num : b) {
+            if (set.contains(num) && !printed.contains(num)) {
+                System.out.print(num + " ");
+                printed.add(num); // Avoid duplicate printing
+            }
+        }
+		for (int num : a) {
+            set.add(num);  //add the elements
+        }
+		return hash.size();//size of the element
+		
+		
+//Hash-Map
+		
+		freqMap.put(arr[i], freqMap.getOrDefault(arr[i], 0) + 1);
+		
+		
+		
+		map.get(arr[i - k])
+		
+		map.remove(arr[i - k]);
+		
+		(map.size()
+		
+		 boolean[] visited = new boolean[n];
+		 
+		 
+		 // Display the frequency of each element
+        System.out.println("Element Frequencies:");
+        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+		
+		
+		if (!map.containsKey(preSum)) 
+                map.put(preSum, i);
+
+            if (map.containsKey(preSum - sum))
+                res = Math.max(res, i - map.get(preSum - sum));
+				
+				
+				for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
+            if (entry.getValue() > threshold) {
+                System.out.println(entry.getKey() + " appears " + entry.getValue() + " times");
+                found = true;
+            }
